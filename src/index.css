@@ -16,7 +16,7 @@ ul {
 input:focus {
   outline: none;
 }
-.main-title{
+.main-title {
   margin: 50px auto 80px;
   border: 2px solid black;
   font-size: 30px;
@@ -36,7 +36,7 @@ input:focus {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #01934A;
+  background-color: #01934a;
   transform: translateY(-50%);
 }
 .main-title::before {
@@ -83,4 +83,12 @@ input:focus {
     width: 100%;
     height: 100%;
   }
+}
+/* End Global Rules */
+
+/* Courses */
+.Course-btn:hover {
+  background-color: #01934a !important;
+  color: white;
+  transition: all 0.3s ease !important;
 }
