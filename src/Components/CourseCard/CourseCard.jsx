@@ -19,7 +19,7 @@ export default function CourseCard(props) {
           objectFit: "cover",
         }}
       />
-      <div className="card-body">
+      <div className="card-body d-flex flex-column">
         <h3
           className="card-title text-center fw-bold"
           style={{
@@ -30,30 +30,31 @@ export default function CourseCard(props) {
           {course.title}
         </h3>
         <p
-          className="card-text text-center"
+          className="card-text text-center flex-grow-1"
           style={{
-            color: "0C0E47",
+            color: "#0C0E47",
             opacity: "0.7",
             fontWeight: "600",
             fontSize: "18px",
-            height: "100px",
           }}
         >
           {course.pub_dec}
         </p>
-        <Link to="" className="Course-btn px-5 py-3 text-decoration-none d-block m-auto text-center"
-            
+        <div className="mt-auto d-flex justify-content-center">
+          <Link
+            to=""
+            className="Course-btn px-5 py-3 text-decoration-none text-center"
             style={{
-                backgroundColor: "#008663",
-                color: "#fff",
-                fontWeight: "700",
-                fontSize: "20px",
-                borderRadius: "75px",
-                width: "fit-content",
+              backgroundColor: "#008663",
+              color: "#fff",
+              fontWeight: "700",
+              fontSize: "20px",
+              borderRadius: "75px",
             }}
-            >
-          Course Details
-        </Link>
+          >
+            Course Details
+          </Link>
+        </div>
       </div>
     </div>
   );
