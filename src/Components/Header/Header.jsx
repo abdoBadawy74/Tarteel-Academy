@@ -7,7 +7,7 @@ export default function Header() {
 
   useEffect(() => {
     const updateActiveLink = () => {
-      const hash = location.hash.slice(1); // Remove the leading '#' from the hash
+      const hash = window.location.hash.substring(1);
       console.log(hash);
 
       const activeLink = document.querySelector(".nav-link.active");
@@ -15,9 +15,9 @@ export default function Header() {
         activeLink.classList.remove("active");
       }
 
-      if (hash === "courses") {
+      if (hash === "/courses") {
         document.querySelector('a[href="#/courses"]').classList.add("active");
-      } else if (hash === "home" || hash === "") {
+      } else if (hash === "/home" || hash === "/") {
         document.querySelector('a[href="#/home"]').classList.add("active");
       } else if (hash === "about") {
         document.querySelector('a[href="#/about"]').classList.add("active");
@@ -32,7 +32,7 @@ export default function Header() {
     return () => {
       window.removeEventListener("hashchange", updateActiveLink);
     };
-  }, [location]);
+  }, [window.location.hash]);
 
   return (
     <nav
