@@ -1,18 +1,42 @@
-import mainImg1 from "../assets/course-1-main-img.jpg"
-import mainImg2 from "../assets/course-2-main-img.jpg"
-import mainImg3 from "../assets/course-3-main-img.jpg"
-import mainImg4 from "../assets/course-4-main-img.jpg"
-import mainImg5 from "../assets/course-5-main-img.jpg"
-import mainImg6 from "../assets/course-6-main-img.jpg"
-import mainImg7 from "../assets/course-7-main-img.jpg"
-import mainImg8 from "../assets/course-8-main-img.jpg"
-import mainImg9 from "../assets/course-9-main-img.jpg"
-import mainImg10 from "../assets/course-10-main-img.jpg"
+import mainImg1 from "../assets/course-1-main-img.jpg";
+import mainImg2 from "../assets/course-2-main-img.jpg";
+import mainImg3 from "../assets/course-3-main-img.jpg";
+import mainImg4 from "../assets/course-4-main-img.jpg";
+import mainImg5 from "../assets/course-5-main-img.jpg";
+import mainImg6 from "../assets/course-6-main-img.jpg";
+import mainImg7 from "../assets/course-7-main-img.jpg";
+import mainImg8 from "../assets/course-8-main-img.jpg";
+import mainImg9 from "../assets/course-9-main-img.jpg";
+import mainImg10 from "../assets/course-10-main-img.jpg";
+// secondary images
+import Course1secImg1 from "../assets/course-1-sec-img-1.jpg";
+import Course1secImg2 from "../assets/course-1-sec-img-2.jpg";
+import Course2secImg1 from "../assets/course-2-sec-img-1.jpg";
+import Course2secImg2 from "../assets/course-2-sec-img-2.jpg";
+import Course3secImg1 from "../assets/course-3-sec-img-1.jpg";
+import Course3secImg2 from "../assets/course-3-sec-img-2.jpg";
+import Course4secImg1 from "../assets/course-4-sec-img-1.jpg";
+import Course4secImg2 from "../assets/course-4-sec-img-2.jpg";
+import Course5secImg1 from "../assets/course-5-sec-img-1.jpg";
+// import Course5secImg2 from "../assets/course-5-sec-img-2.jpg";
+import Course6secImg1 from "../assets/course-6-sec-img-1.jpg";
+import Course6secImg2 from "../assets/course-6-sec-img-2.jpg";
+import Course7secImg1 from "../assets/course-7-sec-img-1.jpg";
+import Course7secImg2 from "../assets/course-7-sec-img-2.jpg";
+import Course8secImg1 from "../assets/course-8-sec-img-1.jpg";
+import Course8secImg2 from "../assets/course-8-sec-img-2.jpg";
+import Course9secImg1 from "../assets/course-9-sec-img-1.jpg";
+import Course9secImg2 from "../assets/course-9-sec-img-2.jpg";
+import Course10secImg1 from "../assets/course-10-sec-img-1.jpg";
+import Course10secImg2 from "../assets/course-10-sec-img-2.jpg";
+
 export const courses = [
   {
     id: 1,
     title: "Quran classes for kids",
     img: mainImg1,
+    sec_img1: Course1secImg1,
+    sec_img2: Course1secImg2,
     pub_dec:
       "Get your kids not only to learn Quran online but love it as well with a special Quran course of study for kids",
     sec_dec1:
@@ -27,6 +51,8 @@ export const courses = [
     id: 2,
     title: "Reading Quran Basics",
     img: mainImg2,
+    sec_img1: Course2secImg1,
+    sec_img2: Course2secImg2,
     pub_dec:
       "Learn the basics of the Quran reading online with the best Quran tutors on the internet. Learn how to read...",
     sec_dec1:
@@ -40,6 +66,8 @@ export const courses = [
     id: 3,
     title: "Quran Recitation with Tajweed rules",
     img: mainImg3,
+    sec_img1: Course3secImg1,
+    sec_img2: Course3secImg2,
     pub_dec:
       "Learn to recite the Quran with Tajweed through on-to-one sessions with the best Quran..",
     sec_dec1:
@@ -53,12 +81,14 @@ export const courses = [
     id: 4,
     title: "Quran memorization",
     img: mainImg4,
+    sec_img1: Course4secImg1,
+    sec_img2: Course4secImg2,
     pub_dec:
       "Learn Quran memorization and Become a Hafiz/Hafiz of the Holy Quran through live memorizing classes",
     sec_dec1:
       "The reward of learning the Qur’an, memorizing it and being skillful in its recitation: The Prophet ( ) said: “The one who reads the Qur’an while having previously memorized it is with the noble dutiful angels, and the one who recites the Qur’an while it is difficult for him will receive two rewards. ” (alBukhari and Muslim).",
     sec_dec2:
-      ' The Messenger of Allah (ﷺ) said, "The best amongst you is the one who learns the Qur\'an and teaches it." <br/> Learn Quran memorization/Hifz through one-to-one personalized online sessions to become Hafiz/Hafiza of the Quran. You or your kids will learn to memorize the Quran in a practical and interactive way.',
+      ' The Messenger of Allah (ﷺ) said, "The best amongst you is the one who learns the Qur\'an and teaches it." : Learn Quran memorization/Hifz through one-to-one personalized online sessions to become Hafiz/Hafiza of the Quran. You or your kids will learn to memorize the Quran in a practical and interactive way.',
     ayah_ar: "",
     ayah_en: "",
   },
@@ -66,6 +96,8 @@ export const courses = [
     id: 5,
     title: "Islamic studies",
     img: mainImg5,
+    sec_img1: Course5secImg1,
+    sec_img2: "",
     pub_dec:
       "Study the Islam religion, learn about Quran, Aqidah, Fiqh, Islamic history, Hadith, and much more.",
     sec_dec1:
@@ -82,7 +114,7 @@ export const courses = [
       },
       {
         title: "Hadith",
-        desc: "Sayings of the Prophet PBUH: <br/> Indeed, the life of Prophet Muhammad (peace be upon him) serves as a living example of Quranic guidance. Hadiths are the key to comprehending Quranic principles fully. Following the path of Prophet Muhammad (peace be upon him) means following the path of Allah.",
+        desc: "Sayings of the Prophet PBUH: Indeed, the life of Prophet Muhammad (peace be upon him) serves as a living example of Quranic guidance. Hadiths are the key to comprehending Quranic principles fully. Following the path of Prophet Muhammad (peace be upon him) means following the path of Allah.",
       },
       {
         title: "Seerah",
@@ -96,12 +128,14 @@ export const courses = [
     id: 6,
     title: "Arabic Language",
     img: mainImg6,
+    sec_img1: Course6secImg1,
+    sec_img2: Course6secImg2,
     pub_dec:
       "Learn the basics of the Arabic language for complete beginners through live sessions with the best Arabic teachers.",
     sec_dec1:
-      "\"Conversational Arabic Lessons Online\" <br/> This course is aimed at students who have a basic knowledge of the Arabic language to improve their conversational and speaking skills and fluency helping to gain complete knowledge of the Arabic language from the beginner level to fluency with the help of our Native Arab Tutors through a comprehensive range of language activities and exercises covering all the basics of Arabic, with the goal of guiding learners in learning Arabic in an effective and enjoyable way to develop their language skills.",
+      '"Conversational Arabic Lessons Online" This course is aimed at students who have a basic knowledge of the Arabic language to improve their conversational and speaking skills and fluency helping to gain complete knowledge of the Arabic language from the beginner level to fluency with the help of our Native Arab Tutors through a comprehensive range of language activities and exercises covering all the basics of Arabic, with the goal of guiding learners in learning Arabic in an effective and enjoyable way to develop their language skills.',
     sec_dec2:
-      'Undoubtedly, the Book of Allah is filled with hidden treasure and its richness is incomprehensible by the human mind. And understanding the Tafseer of the Quran makes us aware of its beauty, essence, and helps us in establishing a bond with Allah SWT.',
+      "Undoubtedly, the Book of Allah is filled with hidden treasure and its richness is incomprehensible by the human mind. And understanding the Tafseer of the Quran makes us aware of its beauty, essence, and helps us in establishing a bond with Allah SWT.",
     ayah_ar: "",
     ayah_en: "",
   },
@@ -109,12 +143,14 @@ export const courses = [
     id: 7,
     title: "Quran Tafsir",
     img: mainImg7,
+    sec_img1: Course7secImg1,
+    sec_img2: Course7secImg2,
     pub_dec:
       "Learn Quran Tafseer online and better understand the Quran with the best Islam & Quran scholars.",
     sec_dec1:
       "It is a comprehensive program that offers students a thorough understanding of the Quranic text and its interpretation.The Tafseer Course starts with an overview of Tafseer, which is the study of the meanings and explanations of verses in the Quran.Students will be taught about various methods and approaches used in Tafseer, as well as their importance in comprehending Allah’s message.",
     sec_dec2:
-      ' Moreover, online courses provide a wide range of resources and tools that make learning more interactive and engaging. From videos and audio recordings to quizzes and games, these resources help keep learners motivated and interested in their studies.',
+      " Moreover, online courses provide a wide range of resources and tools that make learning more interactive and engaging. From videos and audio recordings to quizzes and games, these resources help keep learners motivated and interested in their studies.",
     ayah_ar: "",
     ayah_en: "",
   },
@@ -122,12 +158,14 @@ export const courses = [
     id: 8,
     title: "Quran Ijazah",
     img: mainImg8,
+    sec_img1: Course8secImg1,
+    sec_img2: Course8secImg2,
     pub_dec:
       "Get Ijazah online in “Quran Recitation” and/or “Quran Memorization” by certified Quran scholars.",
     sec_dec1:
       "This course is an advanced level to master Quran science which enables you to transmit Quranic knowledge to others after obtaining your Ijaza successfully. Utilizing repeated tests and quizzes, we will assess your knowledge and hold over that particular arena.",
     sec_dec2:
-      'Ijazah is actually an Arabic word (إِجازَة) that means “permission”, or “authorization”. It is used to prove the authenticity of the Quran’s narration by tracing its lineage back to the Prophet Mohammad (peace and blessings of Allah be -upon him), the angel Jibraeel (peace be upon him), and ultimately to the Almighty Allah, the book’s original creator.',
+      "Ijazah is actually an Arabic word (إِجازَة) that means “permission”, or “authorization”. It is used to prove the authenticity of the Quran’s narration by tracing its lineage back to the Prophet Mohammad (peace and blessings of Allah be -upon him), the angel Jibraeel (peace be upon him), and ultimately to the Almighty Allah, the book’s original creator.",
     ayah_ar: "",
     ayah_en: "",
   },
@@ -135,25 +173,29 @@ export const courses = [
     id: 9,
     title: "Ten Qira'at",
     img: mainImg9,
+    sec_img1: Course9secImg1,
+    sec_img2: Course9secImg2,
     pub_dec:
       "Learn the 10 Qiraat of the holy Quran online with the best Quran reciters who are native and holding Ijazah.",
     sec_dec1:
       "The 10 Qiraat are 10 different methods of reciting the Quran. Each one of these 10 Qiraat derives its name from the famous Rawi “Qari”, the one who narrates it with an established and authenticated chain “Sanad”. Each Qirah has its own Recitation Method and Tajweed Rules that change the pronunciation of the letters and words, meanings, prolongation, and some Tajweed Rules.",
     sec_dec2:
-      'Due to the importance of learning the Ten Qiraat of the Quran for every Muslim in the world, we present an Online 10 Qiraat Course for those Muslims who are either Non-Arabs or living in Non-Muslim countries. Now, you or your kids can take any of the 10 Qiraat with highly qualified teachers from Al-Azhar University through one-on-one live classes.',
+      "Due to the importance of learning the Ten Qiraat of the Quran for every Muslim in the world, we present an Online 10 Qiraat Course for those Muslims who are either Non-Arabs or living in Non-Muslim countries. Now, you or your kids can take any of the 10 Qiraat with highly qualified teachers from Al-Azhar University through one-on-one live classes.",
     ayah_ar: "",
     ayah_en: "",
   },
   {
     id: 10,
     title: "Arabic Grammer",
-    img: mainImg10 ,
+    img: mainImg10,
+    sec_img1: Course10secImg1,
+    sec_img2: Course10secImg2,
     pub_dec:
       "Learn Arabic grammar rules of the Arabic language and excel in Arabic with the best online tutors",
     sec_dec1:
       "Our academy has highly-qualified Arabic teachers who will teach you all the grammatical constructs of the Arabic language to help you develop an in-depth understanding of how to construct Arabic sentences and how they change in different situations.",
     sec_dec2:
-      'Our professional native Arabic tutors will start with you from the basic concepts in Arabic grammar to advanced linguistics and more complex sentence formation.',
+      "Our professional native Arabic tutors will start with you from the basic concepts in Arabic grammar to advanced linguistics and more complex sentence formation.",
     ayah_ar: "",
     ayah_en: "",
   },

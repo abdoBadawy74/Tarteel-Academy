@@ -92,3 +92,12 @@ input:focus {
   color: white;
   transition: all 0.3s ease !important;
 }
+/* course detials */
+.course-title::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 3px;
+  background-color: #01934a;
+  margin-top: 10px;
+}
