@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 export default function CourseCard(props) {
   const { course } = props;
@@ -42,7 +42,8 @@ export default function CourseCard(props) {
         </p>
         <div className="mt-auto d-flex justify-content-center">
           <Link
-            to=""
+            to={`/courses/${course.id}`}
+            state={course}
             className="Course-btn px-5 py-3 text-decoration-none text-center"
             style={{
               backgroundColor: "#008663",

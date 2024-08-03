@@ -71,16 +71,16 @@ export default function Header() {
         </Link>
 
         <button
-          className="navbar-toggler"
+          className="navbar-toggler "
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          style={{ width: "fit-content", borderColor: "#EEE" }}
+          style={{ borderColor: "#EEE" }}
         >
-          <i className="fa-solid fa-bars text-light"></i>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
