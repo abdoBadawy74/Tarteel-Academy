@@ -8,6 +8,7 @@ export default function CourseDetials() {
   console.log(course);
 
   useEffect(() => {
+    document.title = `${course.title}`;
     window.scrollTo(0, 0);
   }, []);
 
