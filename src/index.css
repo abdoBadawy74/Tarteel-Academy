@@ -118,6 +118,7 @@ input:focus {
   font-weight: 700;
   font-size: 75px;
   line-height: 88px;
+  color: #0C0E47;
 }
 .landing .desc p {
   font-family: "Roboto Condensed", sans-serif;
@@ -125,6 +126,7 @@ input:focus {
   font-size: 60px;
   line-height: 70px;
   max-width: 700px;
+  color: #0C0E47;
 }
 .landing .desc .btn,
 .courses .desc .btn {
