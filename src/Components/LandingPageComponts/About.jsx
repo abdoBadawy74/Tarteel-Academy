@@ -3,8 +3,8 @@ import img from "../../assets/quran.jpg";
 
 function About() {
   return (
-    <>
-    <h2 className="main-title my-2 mt-4">About Us</h2>
+    <div id="about">
+      <h2 className="main-title my-2 mt-4">About Us</h2>
       <div className="container about">
         <div className="image">
           <img src={img} alt="Tarteel" />
@@ -19,7 +19,7 @@ function About() {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
