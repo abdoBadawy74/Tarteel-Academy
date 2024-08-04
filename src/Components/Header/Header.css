@@ -134,9 +134,13 @@ nav .b-rosas {
   color: #01934A;
 }
 nav .nav-btn {
-  background-color: #01934A;
-  color: #fff;
+  background-color: #01934A !important;
+  color: #fff !important;
 }
+nav .nav-btn::after{
+  display: none;
+}
+
 /* .navbar.bgi-transparent {
   --bs-bg-opacity: 1;
   background-color: transparent !important;

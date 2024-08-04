@@ -6,6 +6,7 @@ import LandingPage from "./Pages/LandingPage";
 import Courses from "./Pages/Courses";
 import Contact from "./Pages/Contact";
 import CourseDetials from "./Pages/CourseDetials";
+import Icons from "./Components/Icons/Icons";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
+      <Icons/>
       <Footer />
     </>
   );
