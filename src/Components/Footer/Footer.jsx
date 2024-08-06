@@ -3,10 +3,38 @@ import icon2 from "../../assets/youtube-icon.svg";
 import icon3 from "../../assets/instgram-icon.svg";
 import icon4 from "../../assets/facebook-icon.svg";
 import icon5 from "../../assets/telegram-icon.svg";
+import { Link, useLocation } from "react-router-dom";
+import { animateScroll as scroll } from "react-scroll";
+import { useEffect } from "react";
 
 import "./Footer.css";
 
 export default function Footer() {
+  const location = useLocation();
+  // Scroll to section if location changes to "/about"
+  useEffect(() => {
+    if (location.hash === "#about") {
+      const aboutElement = document.getElementById("about");
+      if (aboutElement) {
+        scroll.scrollTo(aboutElement.offsetTop, {
+          duration: 500,
+          delay: 0,
+          smooth: "easeInOutQuart",
+        });
+      }
+    }
+    if (location.hash === "#teachers") {
+      const aboutElement = document.getElementById("teachers");
+      if (aboutElement) {
+        scroll.scrollTo(aboutElement.offsetTop, {
+          duration: 500,
+          delay: 0,
+          smooth: "easeInOutQuart",
+        });
+      }
+    }
+    console.log(location);
+  }, [location]);
   return (
     <div
       style={{
@@ -84,10 +112,29 @@ export default function Footer() {
               fontWeight: "500",
             }}
           >
-            <li>Hotels</li>
-            <li>Travels</li>
-            <li>About Us</li>
-            <li>Contact us</li>
+            <li>
+              <Link className="text-white text-decoration-none" to={"/courses"}>
+                Courses
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="text-white text-decoration-none"
+                to={"/#teachers"}
+              >
+                Teachers
+              </Link>
+            </li>
+            <li>
+              <Link className="text-white text-decoration-none" to={"/#about"}>
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link className="text-white text-decoration-none" to={"/contact"}>
+                Contact us
+              </Link>
+            </li>
           </ul>
 
           <div className="d-flex gap-2 social">

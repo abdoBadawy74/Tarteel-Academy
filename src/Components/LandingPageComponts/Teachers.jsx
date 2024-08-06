@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Teachers() {
   return (
-    <div className="teachers container my-4">
+    <div className="teachers container my-4" id="teachers">
       <h2
         className="course-title fw-bold position-relative"
         style={{

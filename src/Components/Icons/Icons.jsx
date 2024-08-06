@@ -21,7 +21,8 @@ export default function Icons() {
           fontSize: "1.5rem",
           fontWeight: "bold",
         }}
-        href="https://wa.me/201140819485?text=I'm%20interested%20in%20your%20courses"
+        href="https://wa.link/ffwnxf"
+        target="_blank"
       >
         WhatsApp <i className="fab fa-whatsapp"></i>
       </a>

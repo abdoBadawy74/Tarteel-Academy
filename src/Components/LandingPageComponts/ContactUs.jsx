@@ -86,7 +86,7 @@ export default function ContactUs() {
             <textarea
               name="message"
               rows="3"
-              className="w-100 rounded border- p-2 outline-0"
+              className="w-100 rounded border- p-2 "
               placeholder="Content"
               value={formData.message}
               onChange={handleChange}
@@ -95,6 +95,7 @@ export default function ContactUs() {
                 backgroundColor: "rgba(47, 72, 88, 0.85)",
                 color: "#fff",
                 resize: "none",
+                outline: "none",
               }}
             ></textarea>
           </div>
@@ -115,25 +116,33 @@ export default function ContactUs() {
         <p>
           Stay connected! Follow us on social media or send us a message here.
         </p>
-        <img src={logo} alt="LOGO" width={"250px"} style={{
+        <img
+          src={logo}
+          alt="LOGO"
+          width={"250px"}
+          style={{
             display: "block",
             margin: "auto",
-            marginBottom: "30px"
-        }} />
+            marginBottom: "30px",
+          }}
+        />
         <div>
           <p>
             <img src={locationIcon} alt="locationIcon" /> Cairo, Egypt
           </p>
           <p>
-            <img src={phoneIcon} alt="phoneIcon" /> +20 100 000 0000
+            <img src={phoneIcon} alt="phoneIcon" /> +20 101 656 1419
           </p>
           <p>
-            <img src={emailIcon} alt="emailIcon" /> example@gmail.com
+            <img src={emailIcon} alt="emailIcon" /> tarteelalquran23@gmail.com
           </p>
         </div>
         <ul className="d-flex justify-content-end gap-2">
           <li>
-            <a href="https://www.facebook.com/">
+            <a
+              href="https://www.facebook.com/profile.php?id=61563288365607&mibextid=ZbWKwL"
+              target="_blank"
+            >
               <i
                 className="fa-brands fa-facebook"
                 style={{
@@ -143,32 +152,17 @@ export default function ContactUs() {
               ></i>
             </a>
           </li>
+
           <li>
-            <a href="https://www.twitter.com/">
-              <i className="fab fa-twitter" 
-              style={{
-                color: "#1DA1F2",
-                fontSize: "30px",
-              }}
-              ></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/">
-              <i className="fab fa-instagram"
+            <a
+              href="https://www.instagram.com/tarteelalquran23?igsh=MTFodW9mZ3B3cGc5cA=="
+              target="_blank"
+            >
+              <i
+                className="fab fa-instagram"
                 style={{
-                    color: "#E1306C",
-                    fontSize: "30px",
-                }}
-              ></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/">
-              <i className="fab fa-youtube"
-                style={{
-                    color: "#FF0000",
-                    fontSize: "30px",
+                  color: "#E1306C",
+                  fontSize: "30px",
                 }}
               ></i>
             </a>
