@@ -7,16 +7,19 @@ export default function Icons() {
       <a
         className="d-flex gap-2 p-2 align-items-center text-decoration-none"
         style={{
-          backgroundColor: "#D9D9D9",
-          width: "160px",
+          backgroundColor: "#056736",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          width: "40px",
+          height: "40px",
           textAlign: "center",
           position: "fixed",
           bottom: "60px",
           right: "0",
           margin: "1rem",
-          borderRadius: "10px",
+          borderRadius: "50%",
           color: "#01934A",
-          boxShadow: "0 0 10px rgba(0,0,0,0.2)",
           zIndex: "999",
           fontSize: "1.5rem",
           fontWeight: "bold",
@@ -24,30 +27,60 @@ export default function Icons() {
         href="https://wa.link/ffwnxf"
         target="_blank"
       >
-        WhatsApp <i className="fab fa-whatsapp"></i>
+        <i className="fab fa-whatsapp text-white"></i>
       </a>
 
-      <Link
+      <a
         className="d-flex gap-2 p-2 align-items-center text-decoration-none"
         style={{
-          backgroundColor: "#D9D9D9",
-          width: "160px",
+          backgroundColor: "#0866ff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          width: "40px",
+          height: "40px",
           textAlign: "center",
           position: "fixed",
-          bottom: "0px",
+          bottom: "10px",
           right: "0",
           margin: "1rem",
-          borderRadius: "10px",
-          color: "#01934A",
-          boxShadow: "0 0 10px rgba(0,0,0,0.2)",
+          borderRadius: "50%",
+          color: "#FFF",
           zIndex: "999",
           fontSize: "1.5rem",
           fontWeight: "bold",
         }}
-        to="/contact"
+        href="https://www.facebook.com/tarteelalquran23"
+        target="_blank"
       >
-        Free Trial <i className="fas fa-graduation-cap"></i>
-      </Link>
+        <i className="fa-brands fa-facebook-f"></i>
+      </a>
+
+      <a
+        className="d-flex gap-2 p-2 align-items-center text-decoration-none"
+        style={{
+          background: "#E1306C",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          width: "40px",
+          height: "40px",
+          textAlign: "center",
+          position: "fixed",
+          bottom: "107px",
+          right: "0",
+          margin: "1rem",
+          borderRadius: "50%",
+          color: "#FFF",
+          zIndex: "999",
+          fontSize: "1.5rem",
+          fontWeight: "bold",
+        }}
+        href="https://www.instagram.com/tarteelalquran23?igsh=MTFodW9mZ3B3cGc5cA=="
+        target="_blank"
+      >
+        <i className="fa-brands fa-instagram"></i>
+      </a>
     </div>
   );
 }

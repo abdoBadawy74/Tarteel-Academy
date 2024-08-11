@@ -5,7 +5,7 @@ import About from '../Components/LandingPageComponts/About'
 import WhyChooseUS from '../Components/LandingPageComponts/WhyChooseUS'
 import FeaturedCourses from '../Components/LandingPageComponts/FeaturedCourses'
 import Teachers from '../Components/LandingPageComponts/Teachers'
-import ContactUs from '../Components/LandingPageComponts/ContactUs'
+
 
 export default function LandingPage() {
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function LandingPage() {
       <WhyChooseUS/>
       <FeaturedCourses/>
       <Teachers/>
-      <ContactUs/>
+
     </div>
   )
 }

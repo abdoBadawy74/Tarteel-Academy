@@ -4,7 +4,7 @@ import Footer from "./Components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import Courses from "./Pages/Courses";
-import Contact from "./Pages/Contact";
+
 import CourseDetials from "./Pages/CourseDetials";
 import Icons from "./Components/Icons/Icons";
 
@@ -17,7 +17,7 @@ function App() {
         <Route path="home" element={<LandingPage />} />
         <Route path="courses" element={<Courses />}/>
         <Route path="courses/:courseId" element={<CourseDetials />} />
-        <Route path="contact" element={<Contact />} />
+        
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
       <Icons/>

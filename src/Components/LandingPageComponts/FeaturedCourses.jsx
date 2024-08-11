@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 export default function FeaturedCourses() {
   return (
     <>
+      <h2 className="main-title my-5 ">Courses</h2>
       <div className="container my-2 d-flex flex-wrap gap-3 justify-content-center">
         {courses.slice(0, 6).map((course) => {
           return <CourseCard key={course.id} course={course} />;

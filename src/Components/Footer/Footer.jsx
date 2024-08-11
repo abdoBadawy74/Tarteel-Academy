@@ -1,4 +1,3 @@
-import icon1 from "../../assets/x-icon.svg";
 import icon2 from "../../assets/youtube-icon.svg";
 import icon3 from "../../assets/instgram-icon.svg";
 import icon4 from "../../assets/facebook-icon.svg";
@@ -130,49 +129,39 @@ export default function Footer() {
                 About Us
               </Link>
             </li>
-            <li>
-              <Link className="text-white text-decoration-none" to={"/contact"}>
-                Contact us
-              </Link>
-            </li>
           </ul>
 
           <div className="d-flex gap-2 social">
-            <img
-              src={icon1}
-              alt="icon"
-              style={{
-                cursor: "pointer",
-              }}
-            />
-            <img
-              src={icon2}
-              alt="icon"
-              style={{
-                cursor: "pointer",
-              }}
-            />
-            <img
-              src={icon3}
-              alt="icon"
-              style={{
-                cursor: "pointer",
-              }}
-            />
-            <img
-              src={icon4}
-              alt="icon"
-              style={{
-                cursor: "pointer",
-              }}
-            />
-            <img
-              src={icon5}
-              alt="icon"
-              style={{
-                cursor: "pointer",
-              }}
-            />
+            <a href="https://wa.link/ffwnxf" target="_blank">
+              <img
+                src={icon2}
+                alt="icon"
+                style={{
+                  cursor: "pointer",
+                }}
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/tarteelalquran23?igsh=MTFodW9mZ3B3cGc5cA=="
+              target="_blank"
+            >
+              <img
+                src={icon3}
+                alt="icon"
+                style={{
+                  cursor: "pointer",
+                }}
+              />
+            </a>
+            <a href="https://www.facebook.com/tarteelalquran23" target="_blank">
+              <img
+                src={icon4}
+                alt="icon"
+                style={{
+                  cursor: "pointer",
+                }}
+              />
+            </a>
           </div>
         </div>
         <div className="d-flex justify-content-between flex-wrap mt-2 align-items-center">
