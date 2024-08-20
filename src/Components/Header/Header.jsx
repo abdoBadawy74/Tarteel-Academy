@@ -17,7 +17,7 @@ export default function Header() {
       }
 
       // Ensure the contact link is never marked as active
-      const linksToExclude = ['#contact'];
+      const linksToExclude = ["#contact"];
 
       if (!linksToExclude.includes(`#${hash}`)) {
         const newActiveLink = document.querySelector(`a[href="#${hash}"]`);
@@ -121,9 +121,14 @@ export default function Header() {
 
           <ul className="navbar-nav m-2 mb-lg-0">
             <li className="m-auto">
-              <Link className="btn m-2 order-lg-last nav-btn" to="/contact">
+              <a
+                className="btn m-2 order-lg-last nav-btn"
+                href="https://wa.link/ffwnxf"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Contact Us
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

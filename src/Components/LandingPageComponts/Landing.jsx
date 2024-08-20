@@ -10,9 +10,13 @@ export default function Landing() {
         <p className="mt-3 mb-5">
           Find out how you can learn Quran quickly and effectively
         </p>
-        <button className="btn btn-success">
+        <a
+          className="btn btn-success"
+          href="https://wa.link/ffwnxf"
+          target="_blank"
+        >
           Get Free Trial <FaChevronRight />
-        </button>
+        </a>
       </div>
       <div className="image">
         <img src={logo} alt="Tarteel Quran Academy" />

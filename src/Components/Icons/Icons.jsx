@@ -50,7 +50,7 @@ export default function Icons() {
           fontSize: "1.5rem",
           fontWeight: "bold",
         }}
-        href="https://www.facebook.com/tarteelalquran23"
+        href="https://www.facebook.com/profile.php?id=61564286336130&mibextid=ZbWKwL"
         target="_blank"
       >
         <i className="fa-brands fa-facebook-f"></i>

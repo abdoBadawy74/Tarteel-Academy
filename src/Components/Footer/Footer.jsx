@@ -153,7 +153,7 @@ export default function Footer() {
                 }}
               />
             </a>
-            <a href="https://www.facebook.com/tarteelalquran23" target="_blank">
+            <a href="https://www.facebook.com/profile.php?id=61564286336130&mibextid=ZbWKwL" target="_blank">
               <img
                 src={icon4}
                 alt="icon"
