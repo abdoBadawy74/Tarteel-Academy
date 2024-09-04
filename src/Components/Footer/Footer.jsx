@@ -1,7 +1,6 @@
 import icon2 from "../../assets/youtube-icon.svg";
 import icon3 from "../../assets/instgram-icon.svg";
 import icon4 from "../../assets/facebook-icon.svg";
-import icon5 from "../../assets/telegram-icon.svg";
 import { Link, useLocation } from "react-router-dom";
 import { animateScroll as scroll } from "react-scroll";
 import { useEffect } from "react";
@@ -153,7 +152,10 @@ export default function Footer() {
                 }}
               />
             </a>
-            <a href="https://www.facebook.com/profile.php?id=61564286336130&mibextid=ZbWKwL" target="_blank">
+            <a
+              href="https://www.facebook.com/profile.php?id=61564286336130&mibextid=ZbWKwL"
+              target="_blank"
+            >
               <img
                 src={icon4}
                 alt="icon"

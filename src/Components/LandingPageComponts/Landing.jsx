@@ -1,4 +1,3 @@
-import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 import logo from "../../assets/logo.png";
 

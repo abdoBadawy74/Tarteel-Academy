@@ -1,4 +1,3 @@
-import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import questionMark from "../../assets/questionMark.jpg";
 

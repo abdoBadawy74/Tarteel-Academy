@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Teachers() {
   return (
     <div className="teachers container my-4" id="teachers">
@@ -38,19 +36,26 @@ export default function Teachers() {
         knowledge but also committed to nurturing a love for the Quran and
         Islamic values in every student.
       </p>
-      <p style={{
-        fontSize: "30px",
-        fontWeight: "700",
-        color: "rgba(12, 14, 71, 0.7)",
-      }}>
-        <span style={{
+      <p
+        style={{
+          fontSize: "30px",
+          fontWeight: "700",
+          color: "rgba(12, 14, 71, 0.7)",
+        }}
+      >
+        <span
+          style={{
             color: "#01934A",
             fontWeight: "800",
             fontSize: "37px",
             opacity: 1,
             textTransform: "uppercase",
-        }}>Join us</span> and learn from the best as you deepen your
-        understanding and connection with the Quran
+          }}
+        >
+          Join us
+        </span>{" "}
+        and learn from the best as you deepen your understanding and connection
+        with the Quran
       </p>
     </div>
   );

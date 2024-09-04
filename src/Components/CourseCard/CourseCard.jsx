@@ -1,5 +1,5 @@
-import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 export default function CourseCard(props) {
   const { course } = props;
@@ -60,3 +60,12 @@ export default function CourseCard(props) {
     </div>
   );
 }
+
+CourseCard.propTypes = {
+  course: PropTypes.shape({
+    img: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    pub_dec: PropTypes.string.isRequired,
+    id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  }).isRequired,
+};

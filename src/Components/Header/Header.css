@@ -21,8 +21,8 @@
   padding: 10px 0;
   color: #313131;
 }
- .navbar-nav .nav-link.active {
-  color: #01934A !important;
+.navbar-nav .nav-link.active {
+  color: #01934a !important;
 }
 .navbar-nav .nav-item::after {
   content: "";
@@ -30,7 +30,7 @@
   bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #01934A;
+  background-color: #01934a;
   width: 0px;
   height: 2px;
   transition: all 0.3s;
@@ -48,14 +48,14 @@
   bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #01934A;
+  background-color: #01934a;
   width: 50px;
   height: 2px;
   transition: all 0.3s;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #01934A;
+  color: #01934a;
   transition: all 0.3s;
 }
 .navbar-toggler {
@@ -83,11 +83,11 @@
     color: #000 !important;
   }
   .navbar-nav .nav-link.active {
-    color: #01934A !important;
+    color: #01934a !important;
   }
 
   .navbar-nav .nav-link:hover {
-    color: #01934A !important;
+    color: #01934a !important;
     transition: all 0.3s;
   }
   .navbar-nav .nav-item.active:after {
@@ -120,7 +120,7 @@
 }
 .dropdown-item:hover {
   background-color: #f8f9fa !important;
-  color: #01934A !important;
+  color: #01934a !important;
 }
 
 .nav-btn:hover {
@@ -131,13 +131,13 @@
 
 /* my work  */
 nav .b-rosas {
-  color: #01934A;
+  color: #01934a;
 }
 nav .nav-btn {
-  background-color: #01934A !important;
+  background-color: #01934a !important;
   color: #fff !important;
 }
-nav .nav-btn::after{
+nav .nav-btn::after {
   display: none;
 }
 

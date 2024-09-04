@@ -1,4 +1,3 @@
-import React from "react";
 import img from "../../assets/quran.jpg";
 
 function About() {

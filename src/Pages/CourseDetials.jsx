@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import { courses } from "../data/Courses";
 import { useParams } from "react-router-dom";
 
